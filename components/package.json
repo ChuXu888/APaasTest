@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@byted-apaas/designer-react": "1.4.3",
+    "@byted-apaas/event-trace": "^0.2.0-alpha.xd4e1b162c0",
+    "react": "^17"
+  },
+  "devDependencies": {
+    "@types/react": "^17"
+  }
+}

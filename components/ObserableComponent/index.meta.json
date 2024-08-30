@@ -1,0 +1,12 @@
+{
+  "apiName": "ObserableComponent",
+  "label": {
+    "zh_CN": "Obserable Component",
+    "en_US": "Obserable Component"
+  },
+  "icon": "",
+  "description": {
+    "zh_CN": "Obserable Component 组件描述",
+    "en_US": "Obserable Component component description"
+  }
+}
