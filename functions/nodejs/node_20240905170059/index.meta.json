@@ -1,0 +1,17 @@
+{
+  "apiID": "package_c4362f__c__function_aadg3esb2gegi",
+  "apiName": "node_20240905170059",
+  "label": {
+    "zh_CN": "node_20240905170059",
+    "en_US": null
+  },
+  "description": {
+    "zh_CN": "node_20240905170059的描述",
+    "en_US": null
+  },
+  "isPublicAPI": false,
+  "frontendSDKInvokable": false,
+  "longTaskMode": false,
+  "input": [],
+  "output": []
+}
