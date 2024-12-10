@@ -28,4 +28,5 @@ module.exports = async function (params, context, logger) {
   logger.info(params.demo_input_field)
 
   // 在这里补充业务代码
+  logger.info("111")
 }
