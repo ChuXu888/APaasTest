@@ -36,5 +36,8 @@ module.exports = async function (params, context, logger) {
   var faasenv = process.env.KFaaSType
   logger.info(faasenv)
 
+  var faasenv = process.env.KFaaSType
+  logger.info(faasenv)
+
   // 在这里补充业务代码
 }
