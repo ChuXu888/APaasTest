@@ -27,5 +27,8 @@ module.exports = async function (params, context, logger) {
   //打印入参
   logger.info(params.demo_input_field)
 
+  var faasenv = process.env.KFaaSType
+  logger.info(faasenv)
+
   // 在这里补充业务代码
 }
