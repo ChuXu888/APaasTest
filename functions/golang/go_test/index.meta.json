@@ -1,0 +1,16 @@
+{
+  "apiID": "package_7d0040__c__function_aadhlz2smwgca",
+  "apiName": "go_test",
+  "label": {
+    "zh_CN": "go_test",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": false,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
