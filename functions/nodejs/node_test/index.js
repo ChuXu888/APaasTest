@@ -25,6 +25,8 @@ module.exports = async function (params, context, logger) {
 
     logger.info("edit")
 
+    logger.info("link github")
+
   
 
   // 在这里补充业务代码
