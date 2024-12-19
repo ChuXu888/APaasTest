@@ -1,4 +1,4 @@
-package go_jiu
+package go_test
 
 import (
 	"context"
@@ -28,9 +28,13 @@ type Result struct {
  */
 func Handler(ctx context.Context, params *Params) (*Result, error) {
 	// 日志功能
-   application.GetLogger(ctx).Infof("%s 函数开始执行", time.Now().Format("2006-01-02 15:04:05.999"))
+	application.GetLogger(ctx).Infof("%s 函数开始执行", time.Now().Format("2006-01-02 15:04:05.999"))
 
 	// 在这里补充业务代码
+	application.GetLogger(ctx).Infof(application.GlobalVar.GetVar(ctx,"globalParam_953e029a063"))
+	application.GetLogger(ctx).Infof(application.GlobalVar.GetVar(ctx,"globalParam_029a063e323"))
+	application.GetLogger(ctx).Infof(application.GlobalVar.GetVar(ctx,"globalParam_3e029a063e3"))
+	application.GetLogger(ctx).Infof(application.GlobalVar.GetVar(ctx,"globalParam_bb953e029a0"))
 
 	return &Result{}, nil
 }
