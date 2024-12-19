@@ -36,5 +36,7 @@ func Handler(ctx context.Context, params *Params) (*Result, error) {
 	application.GetLogger(ctx).Infof(application.GlobalVar.GetVar(ctx,"globalParam_3e029a063e3"))
 	application.GetLogger(ctx).Infof(application.GlobalVar.GetVar(ctx,"globalParam_bb953e029a0"))
 
+	application.GetLogger(ctx).Infof("edit")
+
 	return &Result{}, nil
 }
