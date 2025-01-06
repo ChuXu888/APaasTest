@@ -1,0 +1,16 @@
+{
+  "apiID": "package_f7bd19__c__function_aadhplno7ooci",
+  "apiName": "g0106",
+  "label": {
+    "zh_CN": "g0106",
+    "en_US": ""
+  },
+  "description": {
+    "zh_CN": "自定义函数",
+    "en_US": "Custom Function"
+  },
+  "longTaskMode": true,
+  "frontendSDKInvokable": true,
+  "input": [],
+  "output": []
+}
