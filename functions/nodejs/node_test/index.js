@@ -23,6 +23,8 @@ module.exports = async function (params, context, logger) {
     var object_records = await application.data.object('object_1d4bb262d60').select('_id','text_d60022decc7').find()
     logger.info(object_records)
 
+    logger.info("111")
+
   
 
   // 在这里补充业务代码
